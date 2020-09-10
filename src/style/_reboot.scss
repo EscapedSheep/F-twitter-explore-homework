@@ -44,3 +44,11 @@ h1 {
   color: $heading-color;
   margin: 0;
 }
+
+.btn-login {
+  @include btn-variant($primary-color, $body-bg);
+}
+
+.btn-signUp {
+  @include btn-variant(white, $primary-color);
+}

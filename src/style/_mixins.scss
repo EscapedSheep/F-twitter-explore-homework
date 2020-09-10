@@ -2,3 +2,15 @@
   margin-top: 0;
   font-size: $font-size;
 }
+
+@mixin container-border() {
+  border: $border-px solid $border-color;
+}
+
+@mixin btn-variant($color, $bg-color) {
+  padding: $btn-padding-y $btn-padding-x;
+  color: $color;
+  background-color: $bg-color;
+  border-radius: 80px;
+  border: $border-px solid $primary-color;
+}

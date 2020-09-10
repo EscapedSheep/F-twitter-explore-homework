@@ -1,0 +1,12 @@
+.header {
+  @include container-border;
+  display: flex;
+  justify-content: space-between;
+  padding: $container-padding-y $container-padding-x;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  gap: 30px;
+}
