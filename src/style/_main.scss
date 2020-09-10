@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: $container-padding-y $container-padding-x;
+  gap: 10px;
+  border-radius: $border-radius-base;
+  @include container-border;
+  @extend .input;
+  @extend .line;
+  button {
+    width: 100%;
+  }
+  a {
+    color: $primary-color;
+    margin: 10px 0;
+  }
+  p {
+    align-self: center;
+  }
+  h1 {
+    font-size: x-large;
+    margin: 20px;
+  }
+}

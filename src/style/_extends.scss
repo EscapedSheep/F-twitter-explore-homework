@@ -1,0 +1,17 @@
+.input {
+  input {
+    background-color: $body-bg;
+    border: none;
+    font-size: $font-size-base;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.line {
+  hr {
+    width: 100%;
+    border-color: $border-color;
+    margin-top: 20px;
+  }
+}
