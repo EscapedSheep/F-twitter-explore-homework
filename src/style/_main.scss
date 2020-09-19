@@ -13,7 +13,12 @@
   gap: 10px;
   border-radius: $border-radius-base;
   @include container-border;
+  // TODO feedback SASS里面的@extend跟我们java的继承是一个意思，肯定是同一类的东西才能继承。
+  //  比如我们这个作业页面上的4个button的样式都去集成一个base-button。
+  //  但是你这里其实想实现的是嵌套，因为你的input是login-box的子元素。
+  //  所以这里不应该用继承，应该用嵌套
   @extend .input;
+  // TODO feedback: 这里和上面的@extend .input;一样的问题
   @extend .line;
   button {
     width: 100%;

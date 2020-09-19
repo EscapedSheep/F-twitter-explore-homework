@@ -11,6 +11,7 @@
   <header class="header">
     <h1>Twitter</h1>
     <nav>
+<!--      TODO feedback: class的命名应该满足a-b格式，不是aB-->
       <ul class="navList">
         <li>
           <button class="btn-login">登录</button>
@@ -22,9 +23,12 @@
     </nav>
   </header>
   <main class="main">
+    <!--    TODO feedback: 这里应该使用form标签，因为它是一个form-->
     <div class="login-box">
+      <!--      TODO feedback: 这行文字，它只是在样式上加粗了，但是它并不是这个页面的heading, 所以不应该使用h标签，使用p标签，然后用css把它加粗就对了-->
       <h1>查看世界上正在发生的事情</h1>
       <input type="text" placeholder="电话、邮件地址或用户名"/>
+<!--      TODO feedback: hr标签用在分割文字段落，这里是想要input有个下边框，用css的border-bottom就好了-->
       <hr>
       <input type="password" placeholder="密码">
       <hr>
